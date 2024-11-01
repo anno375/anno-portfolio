@@ -1,3 +1,79 @@
-.h1{
-    color: red;
+@charset "utf-8" ;
+
+/*
+body
+*/
+.all{
+    background-color: #96B6F0;
+    font-family: 'Noto Sans JP', sans-serif;
+  
+}
+
+/*
+main
+*/
+.main-title{
+    text-align: left;
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 700px;
+    background-image: url("https://i.pinimg.com/564x/f6/9e/78/f69e7887ae141330d0ea6dfe77e47607.jpg");
+    background-size: cover; /* 画像が要素全体を覆うように設定 */
+    background-position: center; /* 画像を中央に配置 */
+    background-repeat: no-repeat; /* 画像を繰り返さない */
+    text-decoration: none; /* テキスト装飾を無効にする */
+}
+
+/*
+section
+*/
+.section{
+    padding: 30px 15px;
+}
+.section-headline{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 0 40px;
+    color: #FFF;
+}
+
+/*
+works
+*/
+.works{
+    margin: 0%;
+    display: flex;
+}
+.works-image{
+    margin-left: 0%;
+
+
+}
+.works-caption{
+    padding-left: 100px;
+
+
+}
+.works-headline{
+    margin: 0 0 20px;
+    font-size: 30px;
+    
+}
+.works-description{
+
+
+}
+
+
+h1 {
+    color: #000;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.end-title{
+    text-align: right;
 }
