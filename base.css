@@ -32,7 +32,7 @@ section
 .section{
     padding: 30px 15px;
 }
-.section-headline{
+.section-headline1{
     text-align: center;
     font-size: 40px;
     font-weight: bold;
@@ -44,28 +44,90 @@ section
 works
 */
 .works{
-    margin: 0%;
-    display: flex;
-}
-.works-image{
-    margin-left: 0%;
-
-
-}
-.works-caption{
-    padding-left: 100px;
-
-
+    color: #FFF;
 }
 .works-headline{
-    margin: 0 0 20px;
-    font-size: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.grid{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
-.works-description{
 
-
+.grid-item{
+    list-style: none;
+    
 }
+
+.grid-col-2 > .grid-item{
+    width: 50%;
+}
+.grid-col-3 > .grid-item{
+    width: 33%;
+}
+.grid-col-4 > .grid-item{
+    width: 25%;
+}
+
+
+.pome1{
+    text-align: center;
+    padding: 0 15px;
+}
+.pome1-headline{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+.pome1-img{
+    margin-bottom: 20px;
+    /* border-radius: 10px 10px 10px 10px; */
+}
+.pome1-description{
+    text-align: center;
+}
+
+.pome2{
+    text-align: center;
+    padding: 0 15px;
+}
+.pome2-headline{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+.pome2-img{
+    margin-bottom: 20px;
+}
+.pome2-description{
+    text-align: center;
+}
+.pome3{
+    text-align: center;
+    padding: 0 15px;
+}
+.pome3-headline{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+.pome3-img{
+    margin-bottom: 20px;
+}
+.pome3-description{
+    text-align: center;
+}
+
+
 
 
 h1 {
