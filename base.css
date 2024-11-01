@@ -1,11 +1,153 @@
 @charset "utf-8" ;
 
-@media screen and (max-width: 959px) {
 	/* 959px以下に適用されるCSS（タブレット用） */
+@media screen and (max-width: 959px) {
 }
+
+/*
+body
+*/
+.all{
+    background-color: #96B6F0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/*
+main
+*/
+.main-title{
+    text-align: left;
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 700px;
+    background-image: url("https://i.pinimg.com/564x/f6/9e/78/f69e7887ae141330d0ea6dfe77e47607.jpg");
+    background-size: cover; /* 画像が要素全体を覆うように設定 */
+    background-position: center; /* 画像を中央に配置 */
+    background-repeat: no-repeat; /* 画像を繰り返さない */
+    text-decoration: none; /* テキスト装飾を無効にする */
+}
+
+/*
+section
+*/
+.section{
+    padding: 30px 15px;
+}
+.section-headline1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 0 40px;
+    color: #FFF;
+}
+
+/*
+works
+*/
+.works{
+    color: #FFF;
+}
+.works-headline{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.grid{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.grid-item{
+    list-style: none;
+    
+}
+
+.grid-col-2 > .grid-item{
+    width: 50%;
+}
+.grid-col-3 > .grid-item{
+    width: 33%;
+}
+.grid-col-4 > .grid-item{
+    width: 25%;
+}
+
+
+.pome1{
+    text-align: center;
+    padding: 0 15px;
+}
+.pome1-headline{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+.pome1-img{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.pome1-description{
+    text-align: center;
+}
+
+.pome2{
+    text-align: center;
+    padding: 0 15px;
+}
+.pome2-headline{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+.pome2-img{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.pome2-description{
+    text-align: center;
+}
+.pome3{
+    text-align: center;
+    padding: 0 15px;
+}
+.pome3-headline{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+.pome3-img{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.pome3-description{
+    text-align: center;
+}
+
+
+h1 {
+    color: #000;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.end-title{
+    text-align: right;
+}
+
+
+/* 480px以下に適用されるCSS（スマホ用） */
 @media screen and (max-width: 480px) {
-	/* 480px以下に適用されるCSS（スマホ用） */
 }
+
 
 /*
 body
@@ -95,9 +237,13 @@ works
     font-weight: bold;
     margin: 0 0 20px;
 }
-.pome1-img{
-    margin-bottom: 20px;
+/* .pome1-img{
+    /* margin-bottom: 20px; */
     /* border-radius: 10px 10px 10px 10px; */
+
+.pome1-img{
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
 .pome1-description{
     text-align: center;
@@ -113,6 +259,7 @@ works
     margin: 0 0 20px;
 }
 .pome2-img{
+    border-radius: 50%;
     margin-bottom: 20px;
 }
 .pome2-description{
@@ -128,6 +275,7 @@ works
     margin: 0 0 20px;
 }
 .pome3-img{
+    border-radius: 50%;
     margin-bottom: 20px;
 }
 .pome3-description{
