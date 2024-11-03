@@ -12,7 +12,7 @@ body
     background-color: #000;
     width: auto;
     height: 100%;
-    background-image: url(./top-img.png);
+    background-image: url(./assets/top-img.png);
     background-repeat: no-repeat;
     background-size: 42vw;
     background-position: 94% 2%;
@@ -63,51 +63,54 @@ main
 .header{
     width: 100%;
     height: auto;
-    font-size: 3.4vw;
+    font-size: 3.2vw;
     font-weight: bold;
     color: #FFF;
 }
 .nav-list{
     border-bottom: 0.5px solid #FFF;
-    padding-bottom: 30px;
+    padding: 0 0 4vw;;
+    margin-bottom: 16vh;
 }
 .works-link{}
 .about-link{}
 .other-link{}   
 
-/*
-section
-*/
-.section{
-    padding: 30px 15px;
-}
-.section-headline1{
-    text-align: center;
-    font-size: 40px;
-    font-weight: bold;
-    margin: 0 0 40px;
-    color: #FFF;
-}
 
 /*
 works
 */
 .works{
     color: #FFF;
+    position: relative;
+    overflow: auto;
+    max-height: 90vh;
+}
+.works-square{
+    width: 6vw;
+    height: 1vw;
+    background-color: #FFF;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 .works-headline{
     text-align: left;
-    font-size: 7vw;
+    font-size: 6.6vw;
     font-weight: bold;
     color: #FFF;
-    margin-top:10vw;
+    background-color: #000;
+    margin: 2vw 0 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .grid{
     width: 100%;
     margin: 0;
     padding: 0;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     
