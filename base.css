@@ -10,8 +10,14 @@ body
 */
 .all{
     background-color: #000;
+    width: auto;
+    height: 100%;
+    background-image: url(./top-img.png);
+    background-repeat: no-repeat;
+    background-size: 42vw;
+    background-position: 94% 2%;
     font-family: 'Noto Sans JP', sans-serif;
-    margin: 0 50px 0 50px;
+    margin: 3% 3.5%;
 }
 a:link {
     color: #FFF;
@@ -26,56 +32,48 @@ a:hover {
     text-decoration: none;
 }
 
-/*
-top
-*/
-.top{
-    width: 100%;
-    height: 50px;
-}
-.top-square{
-    width: 15px;
-    height: 80px;
-    background-color: #FFF;
-    margin-top: 25px;
-}
 
 /*
 main
 */
+.main-section{
+}
+.main-square{
+    width: 1vw;
+    height: 6vw;
+    background-color: #FFF;
+}
+
 .main-title{
     text-align: left;
     font-weight: bold;
-    font-size: 150px;
+    font-size: 10vw;
     color: #fff;
-    margin: 25px 0 -80px;
-    border-bottom: 0;
-    text-decoration: none; /* テキスト装飾を無効にする */
-    /*background-image: url("https://i.pinimg.com/564x/f6/9e/78/f69e7887ae141330d0ea6dfe77e47607.jpg");
-    background-size: cover;  画像が要素全体を覆うように設定 
-    background-position: center; 画像を中央に配置 
-    background-repeat: no-repeat; 画像を繰り返さない 
-    width: 100%;
-    height: 700px; */  
+    margin-bottom: -5.2vw;
+    text-decoration: none;
 }
 .sub-title{
     text-align: left;
-    font-size: 100px;
+    font-size: 7vw;
     font-weight: bold;
     color: #FFF;
-    margin: 0;
 }
 
+
 .header{
-    padding: 20px 0;
-    font-size: 30px;
+    width: 100%;
+    height: auto;
+    font-size: 3.4vw;
     font-weight: bold;
     color: #FFF;
 }
-.nav-list{}
+.nav-list{
+    border-bottom: 0.5px solid #FFF;
+    padding-bottom: 30px;
+}
 .works-link{}
 .about-link{}
-.other-link{}
+.other-link{}   
 
 /*
 section
@@ -98,10 +96,11 @@ works
     color: #FFF;
 }
 .works-headline{
-    text-align: center;
-    font-size: 40px;
+    text-align: left;
+    font-size: 7vw;
     font-weight: bold;
     color: #FFF;
+    margin-top:10vw;
 }
 
 .grid{
