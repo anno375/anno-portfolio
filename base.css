@@ -15,8 +15,8 @@ body
     height: 100%;
     background-image: url(./assets/top-img.png);
     background-repeat: no-repeat;
-    background-size: 42vw;
-    background-position: 94% 2%;
+    background-size: 55vw;
+    background-position: 94% 1%;
     font-family: 'Noto Sans JP', sans-serif;
     margin: 3% 3.5%;
 }
@@ -68,7 +68,7 @@ main
 .nav-list{
     border-bottom: 0.5px solid #FFF;
     padding: 0 0 4vw;;
-    margin-bottom: 16vh;
+    margin-bottom: 34%;
 }
 .works-link{}
 .about-link{}
@@ -93,12 +93,12 @@ works
     position: relative;
     overflow: auto;
     max-height: 90vh;
+    margin-bottom: 16%;
 }
 .works-headline{
     text-align: left;
     font-size: 6vw;
     font-weight: bold;
-    color: #FFF;
     background-color: #000;
     margin: 2vw 0 0;
     position: sticky;
@@ -118,7 +118,7 @@ works
 }
 .nox-description{
     text-align: left;
-    margin: 12vw 4vw;
+    margin: 8vw 4vw 8vw 8vw;
     font-size: 1.6vw;
     font-weight: normal;
 }
@@ -132,7 +132,7 @@ works
 }
 .nishiken-description{
     text-align: left;
-    margin: 12vw 4vw;
+    margin: 8vw 4vw 8vw 8vw;
     font-size: 1.6vw;
     font-weight: normal;
 }
@@ -146,7 +146,7 @@ works
 }
 .shinsapporo-description{
     text-align: left;
-    margin: 12vw 4vw;
+    margin: 8vw 4vw 8vw 8vw;
     font-size: 1.6vw;
     font-weight: normal;
 }
@@ -160,15 +160,141 @@ works
 }
 .arufa-description{
     text-align: left;
-    margin: 12vw 4vw;
+    margin: 8vw 4vw 8vw 8vw;
     font-size: 1.6vw;
     font-weight: normal;
 }
 
 
+/*
+about
+*/
+.about{
+    padding: 0;
+    margin-bottom: 8%;
+}
+.about-headline{
+    text-align: right;
+    font-size: 6vw;
+    font-weight: bold;
+    margin: 2vw 0 0;
+    border-bottom: 0.5px solid #FFF;
+}
+.about-box{
 
+}
+ul{
+    padding: 0;
+}
+.about-item{
+    display: flex;
+    padding: 0;
+}
+.about-description{
+    margin: 12vw 4vw 12vw 8vw;
+    font-size: 1.6vw;
+    font-weight: normal;
+}
+.about-img{
+    margin-top: -10vw;
+    width: 50vw;
+    height: auto;
+}
+
+
+/*
+others
+*/
+.other{
+    position: relative;
+    overflow: auto;
+    max-height: 90vh;
+    margin-bottom: 10%;
+}
+.other-headline{
+    text-align: left;
+    font-size: 6vw;
+    font-weight: bold;
+    background-color: #000;
+    margin: 2vw 0 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.other-item{
+    padding: 0%;
+}
+.fashion-item{
+    display: flex;
+    margin-bottom: 4vw;
+}
+.fashion-img{
+    width: 53.3vw;
+    height: auto;
+}
+.fashion-description{
+    text-align: left;
+    margin: 12vw 4vw 12vw 8vw;
+    font-size: 1.6vw;
+    font-weight: normal;
+}
+.illustration-item{
+    display: flex;
+    margin-bottom: 4vw;
+}
+.illustration-img{
+    width: 53.3vw;
+    height: auto;
+}
+.illustration-description{
+    text-align: left;
+    margin: 12vw 4vw 12vw 8vw;
+    font-size: 1.6vw;
+    font-weight: normal;
+}
+.graphic-item{
+    display: flex;
+    margin-bottom: 4vw;
+}
+.graphic-img{
+    height: auto; 
+    width: 53.3vw;
+}
+.graphic-description{
+    text-align: left;
+    margin: 12vw 4vw 12vw 8vw;
+    font-size: 1.6vw;
+    font-weight: normal;
+}
+.character-item{
+    display: flex;
+    margin-bottom: 4vw;
+}
+.character-img{
+    width: 53.3vw;
+    height: auto;
+}
+.character-description{
+    text-align: left;
+    margin: 12vw 4vw 12vw 8vw;
+    font-size: 1.6vw;
+    font-weight: normal;
+}
+
+
+.end{
+    width: 100%;
+    display: flex;
+}
+.adress{
+    text-align: left;
+    font-size: 1.6vw;
+    margin-right: 45.8%;
+}
 .end-title{
     text-align: right;
+    font-size: 6vw;
+    line-height: 90%;
 }
 
 
