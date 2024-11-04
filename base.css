@@ -101,9 +101,18 @@ main
     border-bottom: 0.5px solid #FFF;
     padding: 0 0 4vw;;
     margin-bottom: 34%;
+    opacity: 0;
+    transform: translateX(100px);
+    animation-name: fadein;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadein {
+    0% {opacity: 0;}
+    100% {opacity: 1;
+    transform: translate(0);}
 }
 .works-link{
-    text-align: left;
     opacity: 0;
     transform: translateX(100px);
     animation-name: fadein;
@@ -119,7 +128,7 @@ main
     opacity: 0;
     transform: translateX(100);
     animation-name: fadein;
-    animation-duration: 2.25s;
+    animation-duration: 2.5s;
     animation-fill-mode: forwards;
 }
 @keyframes fadein {
@@ -131,7 +140,7 @@ main
     opacity: 0;
     transform: translateX(100px);
     animation-name: fadein;
-    animation-duration: 2.5s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 @keyframes fadein {
